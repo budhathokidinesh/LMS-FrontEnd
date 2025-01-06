@@ -6,6 +6,6 @@ export const AuthRoute = ({ children }) => {
   // const user = {
   //     _id: "123abc"
   // }
-  const isAuth = false;
+  const isAuth = true;
   return isAuth ? children : <Navigate to="/login" />;
 };
