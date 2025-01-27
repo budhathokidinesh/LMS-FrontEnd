@@ -5,6 +5,7 @@ export { UserLayout } from "@components/Layouts/UserLayout";
 export { default as HomePage } from "./home/HomePage";
 export { default as DashboardPage } from "./dashboard/DashboardPage";
 export { default as SignUpPage } from "./auth/SignUpPage";
+export { default as VerifyUser } from "./auth/VerifyUser";
 export { default as SignInPage } from "./auth/SignInPage";
 export { default as ForgotPasswordPage } from "./auth/ForgotPasswordPage";
 //pages (books)

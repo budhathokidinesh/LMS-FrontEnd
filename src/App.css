@@ -1,3 +1,10 @@
 .main {
   min-height: 81vh;
 }
+/* Sign in page  */
+
+.signIn-page {
+  min-height: 100vh;
+  background: url(./assets/login-page-img.jpg) center no-repeat;
+  background-size: cover;
+}
