@@ -54,3 +54,22 @@ export const logoutApi = async () => {
   };
   return apiProcessor(obj);
 };
+//this is for request password reset otp
+export const requestPassResetOTPApi = async (payload) => {
+  const obj = {
+    url: authApiEp + "/otp",
+    method: "post",
+    payload,
+  };
+  return apiProcessor(obj);
+};
+// reset password
+export const resetPassApi = async (payload) => {
+  const obj = {
+    url: authApiEp + "/reset-password",
+    method: "post",
+    payload,
+    showToast: true,
+  };
+  return apiProcessor(obj);
+};
